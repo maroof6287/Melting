@@ -18,8 +18,8 @@ document.getElementById('taskInput').addEventListener('keydown', e => {
 
 // TIP SYSTEM
 import { Attribution } from "https://esm.sh/ox/erc8021";
-const BUILDER_CODE = "bc_REPLACE_ME";
-const DEV_RECIPIENT = "0xREPLACE_ME";
+const BUILDER_CODE = "bc_ubvf8miz";
+const DEV_RECIPIENT = "0x04514c3d1a7074E6972190A5632875F4d14785F8";
 
 document.getElementById('tipBtn').onclick = async () => {
   const amount = prompt("Tip in USDC (1/5/10/25/custom):","1");
